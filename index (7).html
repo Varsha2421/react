@@ -17,6 +17,7 @@
   .input-wrap { display: flex; align-items: center; border: 1.5px solid #ddd; border-radius: 8px; padding: 0 14px; height: 50px; background: #fff; }
   .input-wrap svg { color: #999; margin-right: 10px; flex-shrink: 0; }
   .input-wrap input { border: none; outline: none; font-size: 15px; color: #333; flex: 1; background: transparent; }
+  .input-wrap input::-moz-placeholder { color: #aaa; }
   .input-wrap input::placeholder { color: #aaa; }
   .eye-btn { background: none; border: none; cursor: pointer; color: #999; padding: 0; }
   .login-btn { width: 100%; background: #111; color: #fff; border: none; border-radius: 8px; height: 52px; font-size: 15px; font-weight: 600; cursor: pointer; margin-top: 10px; margin-bottom: 24px; }
@@ -48,6 +49,7 @@
   .topbar { height: 56px; background: #fff; border-bottom: 1px solid #eee; display: flex; align-items: center; padding: 0 24px; gap: 16px; flex-shrink: 0; }
   .search-bar { flex: 1; max-width: 420px; display: flex; align-items: center; background: #f5f5f5; border-radius: 8px; padding: 0 14px; height: 36px; gap: 8px; }
   .search-bar input { border: none; outline: none; background: transparent; font-size: 13.5px; color: #444; width: 100%; }
+  .search-bar input::-moz-placeholder { color: #aaa; }
   .search-bar input::placeholder { color: #aaa; }
   .topbar-icons { display: flex; align-items: center; gap: 14px; margin-left: auto; }
   .topbar-icons svg { width: 20px; height: 20px; color: #666; cursor: pointer; }
@@ -55,7 +57,7 @@
   .topbar-user .user-info { text-align: right; }
   .topbar-user .user-name { font-size: 13.5px; font-weight: 600; color: #111; }
   .topbar-user .user-role { font-size: 11px; color: #888; }
-  .user-avatar { width: 36px; height: 36px; border-radius: 50%; background: #555; object-fit: cover; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 13px; font-weight: 600; }
+  .user-avatar { width: 36px; height: 36px; border-radius: 50%; background: #555; -o-object-fit: cover; object-fit: cover; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 13px; font-weight: 600; }
 
   /* CONTENT */
   .content { flex: 1; overflow-y: auto; padding: 28px 28px; background: #f5f5f5; }
